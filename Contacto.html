@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/imagenes/logo.png" alt="Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./">Inicio</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="La_empresa.html">La Empresa</a></li>
+            <li><a href="Galeria.html">Galeria</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Podes enviarnos tu consulta llenando el formulario</h1>
+        <div class="container">
+            <form class="formcontainer">
+                <select name="Tipo de cliente">
+                    <option value="Particular">Particular</option>
+                    <option value="Empresa">Empresa</option>
+                </select>
+                <div>Nombre</div>
+                <input type="name">
+                <div>E-mail</div>
+                <input type="email">
+                <div>Telefono</div>
+                <input type="tel" id="Telefono" name="Telefono" pattern="[0-9]{10}">
+                <div>Motivo de consulta</div>
+                <input type="text">
+                <br>
+                <label>Desea recibir nuestro newsletter?</label>
+                <input type="checkbox" name="acepta" value="1">
+                <br>
+                <input type="reset" value="Borrar Formulario">
+                <input type="submit" value="Enviar Consulta">
+            </form>
+        </div>
+    </main>
+</body>
+<footer>
+    <div class="footercontent">
+        <img class="logofooter" src="/imagenes/logo.png" alt="Logo">
+        <ul class="contactredes">
+            <li>Telefono: 011-4941-5353</li>
+            <li>Email: auto.sports@outlook.com</li>
+            <li>Direccion: Avenida Independencia 2452</li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+    </div>
+</footer>
+</html>
