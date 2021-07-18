@@ -11,7 +11,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
-  height: 250px; }
+  height: 200px; }
 
 .footercontent {
   background-image: linear-gradient(to right, grey, white);
@@ -44,9 +44,11 @@ h1 {
   flex-direction: column;
   align-items: center; }
   .indexcontainer .parrafo_index {
-    color: black; }
+    color: black;
+    text-align: center; }
   .indexcontainer .titulo_index {
-    color: black; }
+    color: black;
+    text-align: center; }
 
 .gridcontainer {
   display: grid;
@@ -66,20 +68,35 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  height: 400px; }
+  height: 450px;
+  padding-bottom: 20px; }
 
-.card {
-  display: flex;
-  background-color: white;
-  height: 100%;
-  width: 20%;
-  border-radius: 20px;
-  padding: 10px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+/*La empresa*/
+.contenedorempresa {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 600px;
+  padding-bottom: 20px; }
+  .contenedorempresa .taller7 {
+    width: 500px;
+    height: 500px; }
+  .contenedorempresa .textoempresa {
+    text-align: left;
+    font-size: 12pt;
+    font-weight: bold; }
 
 /*Galeria*/
+.contenedorempresa {
+  width: 100%;
+  height: 600px;
+  padding-bottom: 20px; }
+  .contenedorempresa .carousel-item {
+    align-items: center;
+    width: 300px;
+    height: 300px; }
+
 /*Contacto*/
 .formcontainer {
   margin: 0 auto 0 auto;
